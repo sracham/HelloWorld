@@ -3,3 +3,24 @@ abnmgfjdsggfcxzcxbx.jb,mmmxmcm,/C
 
 ,manajaa
 .....///////
+
+
+eg for merging the code
+git branch FolderName
+git checkout Branch/Master
+srachama@LNAR-PB9R6A9 MINGW64 /c/HelloWorld (HelloWorld2016Feb)
+$ git checkout master
+Switched to branch 'master'
+
+srachama@LNAR-PB9R6A9 MINGW64 /c/HelloWorld (master)
+$ git merge HelloWorld2016Feb
+Updating ee582ff..87993f7
+Fast-forward
+ Testing.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+srachama@LNAR-PB9R6A9 MINGW64 /c/HelloWorld (master)
+$ git push origination master
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/sracham/HelloWorld.git
+   ee582ff..87993f7  master -> master
